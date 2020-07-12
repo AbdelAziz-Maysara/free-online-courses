@@ -100,7 +100,14 @@ a:hover {
   text-decoration: none;
 }
 
+.figure{
+	text-align: center;
+	color: rgba(210, 255, 100);
+}
 
+.figure .figure-caption{
+	color: rgba(210, 255, 100);
+}
 
 
 
