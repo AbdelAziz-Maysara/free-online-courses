@@ -10,6 +10,9 @@ body {
 h1{
 	color: #e7b038;
 }
+.bg-dark {
+  background-color: #262626 !important;
+}
 .navbar-brand{
 	font-size: 2rem;
 }
@@ -17,6 +20,58 @@ h1{
 .navbar-dark .navbar-nav .active > .nav-link:hover{
 	color: rgba(100, 255, 255, 0.75);
 }
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(210, 255, 100);
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+  clear: both;
+}
+
+
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+  color: rgba(100, 255, 255, 0.75);
+}
+
+.navbar-dark .navbar-nav .nav-link.disabled {
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.navbar-dark .navbar-nav .show > .nav-link,
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .nav-link.active {
+  color: rgba(210,255,100);
+}
+
+.navbar-dark .navbar-toggler {
+  color: rgba(255, 255, 255, 0.5);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-dark .navbar-text {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-dark .navbar-text a {
+  color: #fff;
+}
+
+.navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
+  color: #fff;
+}
+.navbar-dark .navbar-brand {
+  color: rgba(210, 255, 100);
+}
+.navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
+  color: #ff0;
+}
+
+
 
 
 .fa {
@@ -34,9 +89,20 @@ h1{
 
 a {
 	color: rgba(210, 255, 100);
-	text-decoration:none;
 	cursor:pointer;
+	text-decoration: none;
+	background-color: transparent;
 }
+
+a:hover {
+  color: rgba(100, 255, 255, 0.75);
+  text-decoration: underline;
+  text-decoration: none;
+}
+
+
+
+
 
 #Features ul{
 	font-size: 20px;
@@ -44,13 +110,13 @@ a {
 #Features ul li{
 	margin-bottom: 10px;
 }
+#Features p:hover{
+	color: rgba(100, 255, 255, 0.75);
+}
 
-.contact{
+#contact{
 	padding: 20px;
 	float: right;
 	font-size: 30px;
 	color: rgba(210, 255, 100);
-}
-a:hover{
-	text-decoration: none;
 }
